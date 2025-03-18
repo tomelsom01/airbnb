@@ -76,3 +76,5 @@ gem 'concurrent-ruby', '1.3.4'
 group :development, :test do
   gem 'rspec-rails'
 end
+
+gem "dotenv-rails"
