@@ -73,9 +73,16 @@ end
 
 gem 'concurrent-ruby', '1.3.4'
 
+# test app
 group :development, :test do
   gem 'rspec-rails'
 end
 
+# security
+
 gem "dotenv-rails"
+
+gem "devise"
+
+# enable exteranl image library
 gem "cloudinary"
