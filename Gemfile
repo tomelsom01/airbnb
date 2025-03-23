@@ -86,3 +86,5 @@ gem "devise"
 
 # enable exteranl image library
 gem "cloudinary"
+
+gem "tailwindcss-rails"
